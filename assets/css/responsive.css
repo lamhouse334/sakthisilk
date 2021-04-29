@@ -35,6 +35,19 @@
 	
 	.home11-grid .slideshow .wrap-caption { max-width:520px; }
 	.home11-grid .slideshow .slideshow__title { font-size:55px; }
+	.slideshow .slide { position:relative; max-width:100%;max-height:auto;}
+.slideshow .btn { display:inline-block !important; padding:15px 5px; font-size:11px;font-weight:500; }
+
+.slideshow .wrap-caption { padding:10px 0;}
+	.slideshow .slideshow__title { font-size:36px; }
+	.slideshow .slideshow__subtitle { margin-bottom:10px; font-size:24px;}
+	
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px;}
+	
+	.sliderFull .slideshow__title { font-size:36px; letter-spacing:1px; }
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:16px; }
+	.sliderFull .slideshow__text-content.bottom { top:35%; bottom:10px }
+	
 }
 
 
@@ -77,6 +90,7 @@
 	.home8-jewellery .slideshow .slideshow__subtitle { font-size:13px; }
 	
 	.home11-grid .slideshow .slideshow__title { font-size:40px; }
+	
 
 }
 
@@ -203,6 +217,8 @@
 	.product-labels.rounded .lbl { height:35px; width:35px; font-size:10px; }
 	
 	.feature-row__text .row-text { padding: 20px; }
+	
+	
 }
 
 @media only screen and (min-width: 767px) {
@@ -214,6 +230,20 @@
 	.prstyle3 .prFeatures .grid__item { margin-bottom:30px }
 	.prstyle3 .prFeatures img { max-width:40px }
 	.prstyle3 .prFeatures .details { margin-left:50px }
+	.slideshow .slide { position:relative; max-width:100%;max-height:auto; padding-top:2%;}
+.slideshow .btn { display:inline-block !important; padding:10px 10px; font-size:11px;font-weight:500; }
+
+.slideshow .wrap-caption { padding:10px 0;}
+	.slideshow .slideshow__title { font-size:32px; }
+	.slideshow .slideshow__subtitle { margin-bottom:10px; font-size:24px;}
+	
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:24px;}
+	
+	.sliderFull .slideshow__title { font-size:32px; letter-spacing:1px; }
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:14px;text-transform:none; }
+	.sliderFull .slideshow__text-content.bottom { top:35%; bottom:10px }
+	
+	
 }
 
 @media only screen and (max-width: 767px) {
@@ -409,6 +439,40 @@
 	.store-info li:last-child { border-bottom:0; }
 	
 	#footer .addressFooter li:last-of-type { padding-bottom:0; }
+	
+		.bg-size {background-attachment:fixed; background-size:cover; background-position:center center;background-repeat: no-repeat;}
+.slideshow .slide { position:relative; max-width:100%;max-height:auto; padding-top:15%;}
+.slideshow .btn { display:inline-block !important; padding:5px 5px; font-size:8px;font-weight:500; }
+
+.slideshow .wrap-caption { padding:10px 0;}
+	.slideshow .slideshow__title { font-size:24px; }
+	.slideshow .slideshow__subtitle { margin-bottom:10px; font-size:12px;}
+	
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px;}
+	
+	.sliderFull .slideshow__title { font-size:24px; letter-spacing:1px; }
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:12px;text-transform:none; }
+	.sliderFull .slideshow__text-content.bottom { top:25px; bottom:10px }
+	
+	
+.slideshow__text-wrap { height:100%; }
+.tab-slider-product .h2{font-size:16px; text-transform:none;}
+
+.tab-slider-product .tabs > li {font-size:10px;}
+
+.top-header{display:none;}
+.collection-header .collection-hero .collection-hero__image img{height:auto;width:100%;}
+.collection-header .collection-hero .collection-hero__title-wrapper h1{top:100px;;}
+
+#footer { margin-top:20px; }
+	.list--inline { padding:0; margin:0; }
+.list--inline li { display:inline-block; margin-bottom:0; vertical-align:middle; }
+.product-rows .h2{font-size:16px; text-transform:none;}
+
+.footer-social .icons{color:#020202;}
+.footer-links h3{font-size:16px; text-transform:none; padding-top:20px;}
+.contact-box h3{font-size:16px; text-transform:none; padding-top:20px;}
+.footer-links img{max-width:50%;height:auto;}
 }
 
 @media only screen and (max-width: 575px) {	
@@ -484,6 +548,40 @@
 	.home13-auto-parts .collection-box .collection-grid-4item .slick-next { right:-8px; }
 	.home13-auto-parts .collection-box .collection-grid-4item .slick-prev { left:-8px; }
 	
+	.bg-size {background-attachment:fixed; background-size:cover; background-position:center center;background-repeat: no-repeat;}
+.slideshow .slide { position:relative; max-width:100%;max-height:auto; padding-top:15%;}
+.slideshow .btn { display:inline-block !important; padding:5px 5px; font-size:8px;font-weight:500; }
+
+.slideshow .wrap-caption { padding:10px 0;}
+	.slideshow .slideshow__title { font-size:10px; }
+	.slideshow .slideshow__subtitle { margin-bottom:10px; font-size:8px;}
+	
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px;}
+	
+	.sliderFull .slideshow__title { font-size:10px; letter-spacing:1px; }
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px;text-transform:none; }
+	.sliderFull .slideshow__text-content.bottom { top:25px; bottom:10px }
+	
+	
+.slideshow__text-wrap { height:100%; }
+.tab-slider-product .h2{font-size:16px; text-transform:none;}
+
+.tab-slider-product .tabs > li {font-size:10px;}
+
+.top-header{display:none;}
+.collection-header .collection-hero .collection-hero__image img{height:auto;width:100%;}
+.collection-header .collection-hero .collection-hero__title-wrapper h1{top:100px;;}
+
+#footer { margin-top:20px; }
+	.list--inline { padding:0; margin:0; }
+.list--inline li { display:inline-block; margin-bottom:0; vertical-align:middle; }
+.product-rows .h2{font-size:16px; text-transform:none;}
+
+.footer-social .icons{color:#020202;}
+.footer-links h3{font-size:16px; text-transform:none; padding-top:20px;}
+.contact-box h3{font-size:16px; text-transform:none; padding-top:20px;}
+.footer-links img{max-width:50%;height:auto;}
+	
 }
 
 @media only screen and (max-width: 480px) {
@@ -539,7 +637,7 @@
 	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px;}
 	
 	.sliderFull .slideshow__title { font-size:10px; letter-spacing:1px; }
-	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:6px; }
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px; text-transform:none; }
 	.sliderFull .slideshow__text-content.bottom { top:25px; bottom:10px }
 	
 	
