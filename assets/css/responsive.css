@@ -222,8 +222,8 @@
 }
 
 @media only screen and (min-width: 767px) {
-	.home6-modern #page-content { padding-top:13px; }
 	
+	.home6-modern #page-content { padding-top:13px; }	
 	.prstyle2 .prFeatures { float:left; width:100%; padding-top:30px; }
  	.prstyle2 .prFeatures img { max-width:40px; }
  	.prstyle2 .prFeatures .details { margin-left:55px; }
@@ -242,6 +242,7 @@
 	.sliderFull .slideshow__title { font-size:32px; letter-spacing:1px; }
 	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:14px;text-transform:none; }
 	.sliderFull .slideshow__text-content.bottom { top:35%; bottom:10px }
+
 	
 	
 }
@@ -591,9 +592,13 @@
 	.top-header p, .top-header a, .top-header select, .top-header .fa, .top-header span.selected-currency, .language-dd { font-size:11px; letter-spacing:0; }
 	
 	.container-fluid, .home15-funiture-top .container-fluid, .home15-funiture-header .container-fluid { padding: 0 20px; }
-	
+	.mobile-logo { text-align:center; margin-left:5%; max-width:150px; }
 	.search .search__form { margin:33px 20px; }
-	
+	.site-cart{max-width:350px; display:block;float:left;position:relative;	}
+	.site-cart .login{max-width:300px;display:block;float:left;font-size:14px;}
+	.site-cart .icon{max-width:300px;display:block;float:left;font-size:18px;position:relative;margin-top:10px;}
+	#CartCount{display:block;float:left;position:relative;margin-top:15px;margin-left:-5px;}
+	.site-cart.site-header__cart-count{position:absolute;}
 	#header-cart { width:282px; }
 	
 	.latest-blog .wrap-blog .article__grid-image, .latest-blog .wrap-blog .article__grid-meta { display:block; }
@@ -627,7 +632,7 @@
 
 
 .bg-size {background-attachment:fixed; background-size:cover; background-position:center center;background-repeat: no-repeat;}
-.slideshow .slide { position:relative; max-width:100%;max-height:auto; padding-top:15%;}
+.slideshow .slide { position:relative; max-width:100%;max-height:auto; padding-top:25%;}
 .slideshow .btn { display:inline-block !important; padding:5px 5px; font-size:8px;font-weight:500; }
 
 .slideshow .wrap-caption { padding:10px 0;}
@@ -649,6 +654,14 @@
 .top-header{display:none;}
 .collection-header .collection-hero .collection-hero__image img{height:auto;width:100%;}
 .collection-header .collection-hero .collection-hero__title-wrapper h1{top:100px;;}
-
+/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:auto;background-position:center;}
+  .pattern-header .header{font-size:8px; font-weight:400; line-height:1.2;text-align:center;display:flex;width:50%;float:left;position:relative;margin-top:-10%;margin-left:-10%;}
+  .pattern-header .header img{max-width:7%;height:auto;}
+  .pattern-header .img-size{width:50%;height:auto}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:14px; font-weight:400; line-height:1.2; }
 
 }
