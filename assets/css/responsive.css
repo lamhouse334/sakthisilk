@@ -226,6 +226,7 @@
 .top-header .phone-no a:hover { text-decoration:none; }
 
 .site-header__cart-count{margin-left:-10%; margin-right:0; position:relative;}
+siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line-height:40px; }
 
 /*======================================================================
   background-header
