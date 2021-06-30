@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 1450px) {
+@media only screen and (min-width: 1440px) {
 	.slideshow .slideshow__title { font-size:72px; }
 	.home2-default .slideshow .slideshow__title { font-size:50px; }
 	.home2-default .slideshow .slideshow__subtitle { font-size:22px; }
@@ -9,6 +9,114 @@
 	
 	.home5-cosmetic .slideshow .slideshow__title { font-size:72px; }
 	.home5-cosmetic .slideshow .slideshow__subtitle { font-size:20px; }
+	
+	/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
+  .pattern-header .header1{margin-left:25%;margin-top:-3%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:24px; font-weight:400; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:5%;}
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:475px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:50%;vertical-align:center; margin-left:30%;margin-top:20%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:700; font-size:30px; line-height:1.5; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+
+}
+
+@media only screen and (min-width: 1365px) {
+	.slideshow .slideshow__title { font-size:72px; }
+	.home2-default .slideshow .slideshow__title { font-size:50px; }
+	.home2-default .slideshow .slideshow__subtitle { font-size:22px; }
+	.slideshow__text-content.bottom { bottom:2%; }
+	
+	.collection-hero__image { height:auto; }
+	
+	.home5-cosmetic .slideshow .slideshow__title { font-size:72px; }
+	.home5-cosmetic .slideshow .slideshow__subtitle { font-size:20px; }
+	
+	/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
+  .pattern-header .header1{margin-left:25%;margin-top:-3%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:21px; font-weight:400; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:5%;}
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:475px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:50%;vertical-align:center; margin-left:30%;margin-top:20%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:700; font-size:30px; line-height:1.5; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+
+}
+
+@media only screen and (min-width: 1280px) {
+	.slideshow .slideshow__title { font-size:72px; }
+	.home2-default .slideshow .slideshow__title { font-size:50px; }
+	.home2-default .slideshow .slideshow__subtitle { font-size:22px; }
+	.slideshow__text-content.bottom { bottom:2%; }
+	
+	.collection-hero__image { height:auto; }
+	
+	.home5-cosmetic .slideshow .slideshow__title { font-size:72px; }
+	.home5-cosmetic .slideshow .slideshow__subtitle { font-size:20px; }
+	
+	/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
+  .pattern-header .header1{margin-left:25%;margin-top:-3%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:21px; font-weight:400; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:5%;}
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:475px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:50%;vertical-align:center; margin-left:30%;margin-top:20%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:700; font-size:30px; line-height:1.5; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+
 }
 
 @media only screen and (max-width: 1199px) {
@@ -90,6 +198,62 @@
 	.home8-jewellery .slideshow .slideshow__subtitle { font-size:13px; }
 	
 	.home11-grid .slideshow .slideshow__title { font-size:40px; }
+	/*======================================================================
+  Top-header
+========================================================================*/
+.top-header { color:#fff; padding-top:15px; padding-bottom:10px; background:#e10b24; height:40px; vertical-align:baseline;}
+.top-header a { color:#fff; }
+.top-header p, .top-header a, .top-header select, .top-header .fa, .top-header span.selected-currency, .top-header .language-dd { 
+	color:#f4e761;
+	font-size:8px;
+	font-size-adjust: 0.57;
+	letter-spacing:0.6px;
+	font-weight:400px;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	 margin-bottom:0;
+	 text-decoration:none;
+	 vertical-align:middle;	
+	 line-height:normal;
+	
+ }
+.top-header a:hover { text-decoration:underline; }
+.top-header .phone-no, .top-header .welcome-msg { display:block;float:left; width:100%;}
+.top-header .top-header_middle-text{display:block;float:left; width:100%;}
+.top-header .phone-no .anm { vertical-align:middle; }
+.top-header .phone-no a:hover { text-decoration:none; }
+
+.site-header__cart-count{margin-left:-10%; margin-right:0; position:relative;}
+
+/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
+  .pattern-header .header1{margin-left:25%;margin-top:-3%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:18px; font-weight:400; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:5%;}
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:475px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:50%;vertical-align:center; margin-left:30%;margin-top:20%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:700; font-size:30px; line-height:1.5; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+
 	
 
 }
@@ -221,7 +385,8 @@
 	
 }
 
-@media only screen and (min-width: 767px) {
+
+@media only screen and (max-width: 768px) {
 	
 	.home6-modern #page-content { padding-top:13px; }	
 	.prstyle2 .prFeatures { float:left; width:100%; padding-top:30px; }
@@ -242,15 +407,40 @@
 	.sliderFull .slideshow__title { font-size:32px; letter-spacing:1px; }
 	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:14px;text-transform:none; }
 	.sliderFull .slideshow__text-content.bottom { top:35%; bottom:10px }
-
 	
+	/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
+  .pattern-header .header1{margin-left:120%;margin-top:-8%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:100%;position:relative;}
+  .pattern-header .img-size{max-width:100%;height:auto;margin-top:5%;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 0 10px; font-family:'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family:inherit;font-size:14px; font-weight:600; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:3%;margin-bottom:5%;}
+.imgBnrOuter .inner .ttl { line-height:25px; color:#000000; font-size:14px; display:inline-block; padding:10px 20px; max-width:80%; position:absolute; background-color:rgba(255,255,255,0.8); }
+.section-header .h2{text-transform:none;}
+
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:650px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:100%;vertical-align:center; margin-left:35%;margin-top:15%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:48px; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
 	
 }
 
-@media only screen and (max-width: 767px) {
-	h1, .h1 { font-size:1.69231em }
-	h2, .h2 { font-size:1.38462em; text-transform:uppercase; letter-spacing:0.03em }
-	h3, .h3 { font-size:1.15385em; text-transform:uppercase }
+@media only screen and (max-width: 768px) {
 	
 	.mobile-hide { display:none; }
 	.container, .home3-boxed-layout .container-fluid { padding-left:15px; padding-right:15px; }
@@ -582,6 +772,23 @@
 .footer-links h3{font-size:16px; text-transform:none; padding-top:20px;}
 .contact-box h3{font-size:16px; text-transform:none; padding-top:20px;}
 .footer-links img{max-width:50%;height:auto;}
+/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
+  .pattern-header .header1{margin-left:20%;margin-top:-5.5%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:50px;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:16px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family:inherit;font-size:7px; font-weight:600; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:-15%;}
 	
 }
 
@@ -658,10 +865,125 @@
   background-header
 ========================================================================*/
   .pattern-header{background-image:url(../images/head-pattern.png);
-  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:auto;background-position:center;}
-  .pattern-header .header{font-size:8px; font-weight:400; line-height:1.2;text-align:center;display:flex;width:50%;float:left;position:relative;margin-top:-10%;margin-left:-10%;}
-  .pattern-header .header img{max-width:7%;height:auto;}
-  .pattern-header .img-size{width:50%;height:auto}
- .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:14px; font-weight:400; line-height:1.2; }
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
+  .pattern-header .header1{margin-left:25%;margin-top:-6%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:16px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family:inherit;font-size:8px; font-weight:600; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:-15%;}
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern-small.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:375px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:50%;vertical-align:center; margin-left:15%;margin-top:25%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:24px; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+
+}
+
+@media only screen and (max-width: 320px) {
+	.top-header .col-10 { padding-right:5px; }
+	.top-header .text-right { padding-left:5px; }
+	.selected-currency, .language-dd { margin-right:5px; }
+	.top-header p, .top-header a, .top-header select, .top-header .fa, .top-header span.selected-currency, .language-dd { font-size:11px; letter-spacing:0; }
+	
+	.container-fluid, .home15-funiture-top .container-fluid, .home15-funiture-header .container-fluid { padding: 0 20px; }
+	.mobile-logo { text-align:center; margin-left:5%; max-width:100px; }
+	.search .search__form { margin:33px 20px; }
+	.site-cart{max-width:350px; display:block;float:left;position:relative;	}
+	.site-cart .login{max-width:300px;display:block;float:left;font-size:12px;}
+	.site-cart .icon{max-width:300px;display:block;float:left;font-size:12px;position:relative;margin-top:10px;}
+	#CartCount{display:block;float:left;position:relative;margin-top:15px;margin-left:-5px;}
+	.site-cart.site-header__cart-count{position:absolute;}
+	#header-cart { width:282px; }
+	
+	.latest-blog .wrap-blog .article__grid-image, .latest-blog .wrap-blog .article__grid-meta { display:block; }
+	.latest-blog .wrap-blog .article__grid-image { text-align:center; }
+	.latest-blog .wrap-blog .article__grid-meta { width:100%; }
+	.latest-blog .wrap-blog .article__grid-image img { width:100%; margin-bottom:20px; }
+	.latest-blog .wrap-blog .wrap-blog-inner { padding:0; }
+	
+	.sidebar-product .related-product .grid__item { width:100%; }
+	.sidebar-product .related-product .grid__item:nth-child(2n+1) { clear:left; }
+	
+	.home2-default .slideshow .slideshow__title { font-size:12px; }
+	
+	.home3-boxed-layout .tab-slider-product .col-12,
+	.home3-boxed-layout .tab_container .grid-products .item { padding:0; }]
+	
+	.hero .text-large .mega-title { font-size:26px; }
+	.hero .text-large .mega-subtitle { font-size:15px; }
+	
+	.collection-box .container-fluid { padding:0 15px; }
+	
+	#footer { margin-top:20px; }
+	.list--inline { padding:0; margin:0; }
+.list--inline li { display:inline-block; margin-bottom:0; vertical-align:middle; }
+.product-rows .h2{font-size:16px; text-transform:none;}
+
+.footer-social .icons{color:#020202;}
+.footer-links h3{font-size:16px; text-transform:none; padding-top:20px;}
+.contact-box h3{font-size:16px; text-transform:none; padding-top:20px;}
+.footer-links img{width:50%;height:auto;}
+
+
+.bg-size {background-attachment:fixed; background-size:cover; background-position:center center;background-repeat: no-repeat;}
+.slideshow .slide { position:relative; max-width:100%;max-height:auto; padding-top:25%;}
+.slideshow .btn { display:inline-block !important; padding:5px 5px; font-size:8px;font-weight:500; }
+
+.slideshow .wrap-caption { padding:10px 0;}
+	.slideshow .slideshow__title { font-size:10px; }
+	.slideshow .slideshow__subtitle { margin-bottom:10px; font-size:8px;}
+	
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px;}
+	
+	.sliderFull .slideshow__title { font-size:10px; letter-spacing:1px; }
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px; text-transform:none; }
+	.sliderFull .slideshow__text-content.bottom { top:25px; bottom:10px }
+	
+	
+.slideshow__text-wrap { height:100%; }
+.tab-slider-product .h2{font-size:16px; text-transform:none;}
+
+.tab-slider-product .tabs > li {font-size:10px;}
+
+.top-header{display:none;}
+.collection-header .collection-hero .collection-hero__image img{height:auto;width:100%;}
+.collection-header .collection-hero .collection-hero__title-wrapper h1{top:100px;;}
+/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%;margin-left:-5%;}
+  .pattern-header .header1{margin-left:30%;margin-top:-7%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:16px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family:inherit;font-size:7px; font-weight:600; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:-15%;}
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern-small.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:375px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:50%;vertical-align:center; margin-left:15%;margin-top:25%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:24px; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
 
 }

@@ -58,7 +58,7 @@ Table of Content:
 @import url('http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&amp;display=swap');
 @import url('http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;display=swap');
 @import url('http://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
 
@@ -222,8 +222,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity:1; -ms-fil
 	font-size:12px;
 	font-size-adjust: 0.57;
 	letter-spacing:0.6px;
-	font-weight:400px;
-	margin-bottom: 0;
+	font-weight:400px;	
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -231,6 +230,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity:1; -ms-fil
 	 text-decoration:none;
 	 vertical-align:middle;	
 	 line-height:normal;
+	 left:0;
  }
 .top-header a:hover { text-decoration:underline; }
 .top-header .phone-no, .top-header .welcome-msg { display:inline; }
@@ -365,7 +365,22 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity:1; -ms-fil
 }
 
 .header-content-wrapper { width:100%; padding:15px 0; }
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:650px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:100%;vertical-align:center; margin-left:35%;margin-top:15%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:48px; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
 
+/*======================================================================
+   video
+========================================================================*/
+.video-section{ position:relative; vertical-align:middle;display:flex; text-align:center;}
+.video-wrapper { position:relative; overflow:hidden; max-width:100%; height:auto;padding:30px;}
+.video-wrapper iframe { position:relative; top:0; left:0; width:100%; height:auto; }
 /*======================================================================
   10. Homepage Slideshow
 ========================================================================*/
@@ -382,7 +397,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity:1; -ms-fil
 .slick-active .slideshow__text-content.bottom { -ms-transform:translateY(0); -webkit-transform:translateY(0); transform:translateY(0); }
 .slick-active .slideshow__text-content.top { -ms-transform:translateY(-5%); -webkit-transform:translateY(-5%); transform:translateY(-5%); }
 .slick-active .slideshow__text-content, .no-js .slideshow__text-content { -ms-transform:translateY(-50%); -webkit-transform:translateY(-50%); transform:translateY(-50%); opacity:1; }
-.slideshow .slideshow__title { color:#fff; font-family: 'Playfair Display SC', serif; font-weight:900; font-size:90px; text-transform:uppercase; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+.slideshow .slideshow__title { color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:90px; text-transform:uppercase; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
 .slideshow .slideshow__subtitle { color:#fff; font-weight:400; font-size:16px; text-transform:uppercase; margin-bottom:20px; line-height:1.2; text-shadow:1px 1px 4px rgba(0,0,0,0); display:block; }
 .slideshow__text-wrap { height:100%; }
 .slick-active .slideshow__image.img-animate { -ms-transform:scale(1); -webkit-transform:scale(1); transform:scale(1); }
@@ -408,6 +423,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity:1; -ms-fil
 .pb-section { padding-bottom:35px; }
 .pt-section { padding-top:35px; }
 .no-pb-section { padding-bottom:0; }
+.section-header p{font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2; color:#ad873c;}
 
 /*======================================================================
   12. Products With Tab Slider
@@ -1207,9 +1223,10 @@ input.checkbox { height:auto; vertical-align:middle; padding:0; box-shadow:none;
 ========================================================================*/
   .pattern-header{background-image:url(../images/head-pattern.png);
   background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
-  .pattern-header .header{color:#ad873c; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2; padding:40px 60px;max-width:25%;text-align:center;}
-  .pattern-header .header img{max-width:7%;height:auto;}
- .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2; overflow-wrap: break-word; word-wrap: break-word;}
+  .pattern-header .header{padding:40px;text-align:center;display:block;float:left;width:50%;}
+  .pattern-header .header1{margin-left:80%;}  
+ .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{ color:#ad873c; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;display:block;float:left;}
 /*======================================================================
   27. Image Banners
 ========================================================================*/
@@ -1514,8 +1531,7 @@ body.home8-jewellery { font-size:14px; }
 .home14-bags .footer-2 .site-footer hr { border-color:#454545; }
 .home14-bags .footer-2 .site-footer .addressFooter .icon { color:#ffffff !important; }
 
-.video-wrapper { position:relative; overflow:hidden; max-width:100%; padding-bottom:56.25%; height:0; }
-.video-wrapper iframe { position:absolute; top:0; left:0; width:100%; height:100%; }
+
   
 /*---------------------------------------
   28.14 Home 15 - Furniture  ------------
