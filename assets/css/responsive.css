@@ -255,6 +255,20 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .parallax .inner img{max-width:50%;vertical-align:center; margin-left:30%;margin-top:20%;}
 .parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:700; font-size:30px; line-height:1.5; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
 
+/*======================================================================
+  Product-banner
+========================================================================*/
+
+.template-collection .collection-header { margin-bottom:25px; }
+.collection-hero { position:relative; overflow:hidden;padding:100px 0 0 0; }
+.collection-hero__image {max-width:100%; height:auto; margin:0;}
+.collection-hero__image img {max-width:100%; height:auto; position:relative;}
+.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
+.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:36px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:0;letter-spacing:-1px;line-height:30px;}
+.category-description {width:100%; margin-bottom:10px; padding: 25px 0 0 0; }
+.category-description p{font-size:12px;font-weight:400;}
+.category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
+
 	
 
 }
@@ -385,6 +399,72 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 	
 	
 }
+@media only screen and (max-width: 834px) {
+	
+	.home6-modern #page-content { padding-top:13px; }	
+	.prstyle2 .prFeatures { float:left; width:100%; padding-top:30px; }
+ 	.prstyle2 .prFeatures img { max-width:40px; }
+ 	.prstyle2 .prFeatures .details { margin-left:55px; }
+	.prstyle3 .prFeatures .grid__item { margin-bottom:30px }
+	.prstyle3 .prFeatures img { max-width:40px }
+	.prstyle3 .prFeatures .details { margin-left:50px }
+	.slideshow .slide { position:relative; max-width:100%;max-height:auto; padding-top:2%;}
+.slideshow .btn { display:inline-block !important; padding:10px 10px; font-size:11px;font-weight:500; }
+
+.slideshow .wrap-caption { padding:10px 0;}
+	.slideshow .slideshow__title { font-size:66px; }
+	.slideshow .slideshow__subtitle { margin-bottom:10px; font-size:24px;}
+	
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:24px;}
+	
+	.sliderFull .slideshow__title { font-size:32px; letter-spacing:1px; }
+	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:14px;text-transform:none; }
+	.sliderFull .slideshow__text-content.bottom { top:35%; bottom:10px }
+	
+	/*======================================================================
+  background-header
+========================================================================*/
+  .pattern-header{background-image:url(../images/head-pattern.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
+  .pattern-header .header1{margin-left:120%;margin-top:-8%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header img{max-width:100%;position:relative;}
+  .pattern-header .img-size{max-width:100%;height:auto;margin-top:5%;}
+ .pattern-header  h2{ color:#ad873c; margin:0 0 0 10px; font-family:'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+ .pattern-header  h3{font-family:inherit;font-size:14px; font-weight:600; line-height:1.2;display:block;float:left;}
+ 
+ /*======================================================================
+  imgBanners
+========================================================================*/
+.imgBanners { padding:0; }
+.imgBnrOuter {padding:0; margin-top:3%;margin-bottom:5%;}
+.imgBnrOuter .inner .ttl { line-height:25px; color:#000000; font-size:14px; display:inline-block; padding:10px 20px; max-width:80%; position:absolute; background-color:rgba(255,255,255,0.8); }
+.section-header .h2{text-transform:none;}
+
+/*======================================================================
+   parallax
+========================================================================*/
+.parallax {width:100%; height:auto; position:relative;padding:50px 0 0 0;}
+.parallax .bg-img {background-attachment:fixed; background-image:url(../images/parallax-banners/modern.jpg); background-size:cover; background-repeat:no-repeat; background-position:center;width:100%;height:650px;}
+.parallax .head{font-family:inherit;font-size:40px font-weight:bold;color:white;position:relative;text-align:center;width:100%;margin-top:10px;}
+.parallax .inner{display:inline-block;position:absolute;width:100%;}
+.parallax .inner img{max-width:100%;vertical-align:center; margin-left:35%;margin-top:15%;}
+.parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:48px; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+/*======================================================================
+  Product-banner
+========================================================================*/
+
+.template-collection .collection-header { margin-bottom:25px; }
+.collection-hero { position:relative; overflow:hidden;padding:100px 0 0 0; }
+.collection-hero__image {max-width:100%; height:auto; margin:0;}
+.collection-hero__image img {max-width:100%; height:auto; position:relative;}
+.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
+.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:24px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:0;letter-spacing:-1px;line-height:18px;}
+.category-description {width:100%; margin-bottom:10px; padding: 25px 0 0 0; }
+.category-description p{font-size:12px;font-weight:400;}
+.category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
+	
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -438,10 +518,22 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .parallax .inner{display:inline-block;position:absolute;width:100%;}
 .parallax .inner img{max-width:100%;vertical-align:center; margin-left:35%;margin-top:15%;}
 .parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:48px; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+/*======================================================================
+  Product-banner
+========================================================================*/
+
+.template-collection .collection-header { margin-bottom:25px; }
+.collection-hero { position:relative; overflow:hidden;padding:100px 0 0 0; }
+.collection-hero__image {max-width:100%; height:auto; margin:0;}
+.collection-hero__image img {max-width:100%; height:auto; position:relative;}
+.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
+.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:16px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:15%;letter-spacing:-1px;line-height:18px;}
+.category-description {width:100%; margin-bottom:10px; padding: 25px 0 0 0; }
+.category-description p{font-size:12px;font-weight:400;}
+.category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
 	
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	
 	.mobile-hide { display:none; }
 	.container, .home3-boxed-layout .container-fluid { padding-left:15px; padding-right:15px; }
@@ -451,7 +543,7 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 	.pb-section { padding-bottom:15px; }
 	.section { padding-top:20px; padding-bottom:20px; }
 	
-	.slideshow .slideshow__title { font-size:66px; }
+	.slideshow .slideshow__title { font-size:30px; }
 	.slideshow .slideshow__subtitle { font-size:14px; }
 	.home2-default .home-slideshow { padding-top:0; }
 	.home2-default .slideshow .slideshow__title { font-size:26px; }
@@ -631,41 +723,8 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 	.store-info li:last-child { border-bottom:0; }
 	
 	#footer .addressFooter li:last-of-type { padding-bottom:0; }
-	
-		.bg-size {background-attachment:fixed; background-size:cover; background-position:center center;background-repeat: no-repeat;}
-.slideshow .slide { position:relative; max-width:100%;max-height:auto; padding-top:15%;}
-.slideshow .btn { display:inline-block !important; padding:5px 5px; font-size:8px;font-weight:500; }
-
-.slideshow .wrap-caption { padding:10px 0;}
-	.slideshow .slideshow__title { font-size:24px; }
-	.slideshow .slideshow__subtitle { margin-bottom:10px; font-size:12px;}
-	
-	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:8px;}
-	
-	.sliderFull .slideshow__title { font-size:24px; letter-spacing:1px; }
-	.sliderFull .slideshow__subtitle { margin-bottom:10px; font-size:12px;text-transform:none; }
-	.sliderFull .slideshow__text-content.bottom { top:25px; bottom:10px }
-	
-	
-.slideshow__text-wrap { height:100%; }
-.tab-slider-product .h2{font-size:16px; text-transform:none;}
-
-.tab-slider-product .tabs > li {font-size:10px;}
-
-.top-header{display:none;}
-.collection-header .collection-hero .collection-hero__image img{height:auto;width:100%;}
-.collection-header .collection-hero .collection-hero__title-wrapper h1{top:100px;;}
-
-#footer { margin-top:20px; }
-	.list--inline { padding:0; margin:0; }
-.list--inline li { display:inline-block; margin-bottom:0; vertical-align:middle; }
-.product-rows .h2{font-size:16px; text-transform:none;}
-
-.footer-social .icons{color:#020202;}
-.footer-links h3{font-size:16px; text-transform:none; padding-top:20px;}
-.contact-box h3{font-size:16px; text-transform:none; padding-top:20px;}
-.footer-links img{max-width:50%;height:auto;}
 }
+
 
 @media only screen and (max-width: 575px) {	
 
@@ -790,6 +849,19 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 ========================================================================*/
 .imgBanners { padding:0; }
 .imgBnrOuter {padding:0; margin-top:-15%;}
+/*======================================================================
+  Product-banner
+========================================================================*/
+
+.template-collection .collection-header { margin-bottom:25px; }
+.collection-hero { position:relative; overflow:hidden;padding:100px 0 0 0; }
+.collection-hero__image {width:100%; height:auto; margin:0;}
+.collection-hero__image img {max-width:100%; height:auto;}
+.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
+.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:16px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:15%;letter-spacing:-1px;line-height:18px;}
+.category-description { margin-bottom:10px; padding: 25px 0 0 0; }
+.category-description p{font-size:12px;font-weight:400;}
+.category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
 	
 }
 
@@ -889,6 +961,20 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .parallax .inner img{max-width:50%;vertical-align:center; margin-left:15%;margin-top:25%;}
 .parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:24px; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
 
+/*======================================================================
+  Product-banner
+========================================================================*/
+
+.template-collection .collection-header { margin-bottom:25px; }
+.collection-hero { position:relative; overflow:hidden;padding:100px 0 0 0; }
+.collection-hero__image {width:100%; height:auto; margin:0;}
+.collection-hero__image img {max-width:100%; height:auto;}
+.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
+.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:16px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:15%;letter-spacing:-1px;line-height:18px;}
+.category-description { margin-bottom:10px; padding: 25px 0 0 0; }
+.category-description p{font-size:12px;font-weight:400;}
+.category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -986,5 +1072,19 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .parallax .inner{display:inline-block;position:absolute;width:100%;}
 .parallax .inner img{max-width:50%;vertical-align:center; margin-left:15%;margin-top:25%;}
 .parallax h2{color:#fff; font-family: 'Playfair Display', serif; font-weight:900; font-size:24px; line-height:1.1; text-shadow:1px 1px 7px rgba(0,0,0,0); letter-spacing:-1px; }
+
+/*======================================================================
+  Product-banner
+========================================================================*/
+
+.template-collection .collection-header { margin-bottom:25px; }
+.collection-hero { position:relative; overflow:hidden;padding:70px 0 0 0; }
+.collection-hero__image {width:100%; height:auto; margin:0;}
+.collection-hero__image img { width:100%; }
+.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
+.collection-hero__title { font-size:66px; position:absolute; color:#ad873c; width:100%; text-align:center; margin-top:10%;-ms-transform:translateY(-50%); -webkit-transform:translateY(-50%); transform:translateY(-50%); }
+.category-description { margin-bottom:10px; padding: 25px 0 0 0; }
+.category-description p{font-size:12px;font-weight:400;}
+.category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
 
 }
