@@ -9,8 +9,17 @@
 	
 	.home5-cosmetic .slideshow .slideshow__title { font-size:72px; }
 	.home5-cosmetic .slideshow .slideshow__subtitle { font-size:20px; }
-	
 	/*======================================================================
+	navigation
+	========================================================================*/
+	#siteNav > li > a{font-size:13px;}
+	/*======================================================================
+	Collection-header
+	========================================================================*/
+	.collection-hero__title{font-size:48px;line-height:55px;}
+	.pattern-header-kanchi .img-size{margin-top:3%;}
+	
+/*======================================================================
   background-header
 ========================================================================*/
   .pattern-header{background-image:url(../images/head-pattern.png);
@@ -18,7 +27,7 @@
   .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
   .pattern-header .header1{margin-left:25%;margin-top:-3%;display:block;float:left;width:100%;padding:0;}
   .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
-  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:0;margin-bottom:0;}
  .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
  .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:24px; font-weight:400; line-height:1.2;display:block;float:left;}
  
@@ -58,7 +67,7 @@
   .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
   .pattern-header .header1{margin-left:25%;margin-top:-3%;display:block;float:left;width:100%;padding:0;}
   .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
-  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:25px;}
  .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
  .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:21px; font-weight:400; line-height:1.2;display:block;float:left;}
  
@@ -79,7 +88,7 @@
 
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1280px) {
 	.slideshow .slideshow__title { font-size:72px; }
 	.home2-default .slideshow .slideshow__title { font-size:50px; }
 	.home2-default .slideshow .slideshow__subtitle { font-size:22px; }
@@ -91,6 +100,20 @@
 	.home5-cosmetic .slideshow .slideshow__subtitle { font-size:20px; }
 	
 	/*======================================================================
+	 top-header
+	========================================================================*/
+	.top-header p{font-size:10px;}
+	
+	/*======================================================================
+	navigation
+	========================================================================*/
+	#siteNav > li > a{font-size:11px;}
+	/*======================================================================
+	Collection-header
+	========================================================================*/
+	.collection-hero__title{font-size:48px;line-height:55px;}
+	.pattern-header-kanchi .img-size{margin-top:3%;}
+	/*======================================================================
   background-header
 ========================================================================*/
   .pattern-header{background-image:url(../images/head-pattern.png);
@@ -98,7 +121,7 @@
   .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
   .pattern-header .header1{margin-left:25%;margin-top:-3%;display:block;float:left;width:100%;padding:0;}
   .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
-  .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
+  .pattern-header .img-size{max-width:50%;height:auto;margin-top:25px;}
  .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
  .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:21px; font-weight:400; line-height:1.2;display:block;float:left;}
  
@@ -234,12 +257,12 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
   .pattern-header{background-image:url(../images/head-pattern.png);
   background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
   .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
-  .pattern-header .header1{margin-left:25%;margin-top:-3%;display:block;float:left;width:100%;padding:0;}
+  .pattern-header .header1{margin-top:-3%;display:block;float:left;width:100%;padding:0;}
   .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
   .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
  .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
- .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:18px; font-weight:400; line-height:1.2;display:block;float:left;}
- 
+ .pattern-header  h3{font-family: 'Playfair Display', serif;font-size:18px; font-weight:400; line-height:1.2;display:block;float:left;} 
+
  /*======================================================================
   imgBanners
 ========================================================================*/
@@ -264,7 +287,7 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .collection-hero__image {max-width:100%; height:auto; margin:0;}
 .collection-hero__image img {max-width:100%; height:auto; position:relative;}
 .collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
-.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:36px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:0;letter-spacing:-1px;line-height:30px;}
+.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:36px; position:absolute; width:100%; text-align:center; margin-top:0;letter-spacing:-1px;line-height:30px;}
 .category-description {width:100%; margin-bottom:10px; padding: 25px 0 0 0; }
 .category-description p{font-size:12px;font-weight:400;}
 .category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
@@ -459,7 +482,7 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .collection-hero__image {max-width:100%; height:auto; margin:0;}
 .collection-hero__image img {max-width:100%; height:auto; position:relative;}
 .collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
-.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:24px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:0;letter-spacing:-1px;line-height:18px;}
+.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:24px; position:absolute; width:100%; text-align:center; margin-top:0;letter-spacing:-1px;line-height:18px;}
 .category-description {width:100%; margin-bottom:10px; padding: 25px 0 0 0; }
 .category-description p{font-size:12px;font-weight:400;}
 .category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
@@ -490,16 +513,39 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 	.sliderFull .slideshow__text-content.bottom { top:35%; bottom:10px }
 	
 	/*======================================================================
+	 top-header
+	========================================================================*/
+	.top-header p{font-size:8px;}
+	
+	/*======================================================================
+	navigation
+	========================================================================*/
+	#siteNav > li > a{font-size:11px;}
+	/*======================================================================
+	Collection-header
+	========================================================================*/
+	
+	.pattern-header-kanchi .img-size{margin-top:3%;}
+	
+	/*======================================================================
   background-header
 ========================================================================*/
   .pattern-header{background-image:url(../images/head-pattern.png);
-  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:250px;background-position:center center}
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:auto;background-position:center center}
   .pattern-header .header{padding:20px;text-align:center;display:block;float:left;width:100%}
   .pattern-header .header1{margin-left:120%;margin-top:-8%;display:block;float:left;width:100%;padding:0;}
   .pattern-header .header img{max-width:100%;position:relative;}
-  .pattern-header .img-size{max-width:100%;height:auto;margin-top:5%;}
+  .pattern-header .img-size{max-width:100%;height:auto;margin-top:2%;}
  .pattern-header  h2{ color:#ad873c; margin:0 0 0 10px; font-family:'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
  .pattern-header  h3{font-family:inherit;font-size:14px; font-weight:600; line-height:1.2;display:block;float:left;}
+ 
+ .pattern-header-kanchi{background-image:url(../images/head-pattern-kanchi.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:auto;background-position:center center}
+    .pattern-header-kanchi .header{text-align:left;display:block;float:left;width:50%;}
+   .pattern-header-kanchi .header1{text-align:center;display:block;float:left;width:50%;}  
+  .pattern-header-kanchi  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+  .pattern-header-kanchi  h3{ color:#ad873c; font-family: 'Playfair Display', serif; font-size:14px; font-weight:400; line-height:1.2;display:block;float:left;margin-top:2%;width:50%;text-align:center;}
+  .pattern-header-kanchi .img-size{max-width:25%;height:auto;}
  
  /*======================================================================
   imgBanners
@@ -526,8 +572,7 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .collection-hero { position:relative; overflow:hidden;padding:100px 0 0 0; }
 .collection-hero__image {max-width:100%; height:auto; margin:0;}
 .collection-hero__image img {max-width:100%; height:auto; position:relative;}
-.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
-.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:16px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:15%;letter-spacing:-1px;line-height:18px;}
+.collection-hero__title{font-size:24px;line-height:36px;}
 .category-description {width:100%; margin-bottom:10px; padding: 25px 0 0 0; }
 .category-description p{font-size:12px;font-weight:400;}
 .category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
@@ -844,6 +889,15 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
  .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:16px; font-weight:400; line-height:1.2;}
  .pattern-header  h3{font-family:inherit;font-size:7px; font-weight:600; line-height:1.2;display:block;float:left;}
  
+ .pattern-header-kanchi{background-image:url(../images/head-pattern-kanchi.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:auto;background-position:center center}
+    .pattern-header-kanchi .header{text-align:left;display:block;float:left;width:50%;}
+   .pattern-header-kanchi .header1{text-align:center;display:block;float:left;width:50%;}  
+  .pattern-header-kanchi  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:21px; font-weight:400; line-height:1.2;}
+  .pattern-header-kanchi  h3{ color:#ad873c; font-family: 'Playfair Display', serif; font-size:14px; font-weight:400; line-height:1.2;display:block;float:left;margin-top:2%;width:50%;text-align:center;}
+  .pattern-header-kanchi .img-size{max-width:25%;height:auto;}
+ 
+ 
  /*======================================================================
   imgBanners
 ========================================================================*/
@@ -858,7 +912,7 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .collection-hero__image {width:100%; height:auto; margin:0;}
 .collection-hero__image img {max-width:100%; height:auto;}
 .collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
-.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:16px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:15%;letter-spacing:-1px;line-height:18px;}
+.collection-hero__title { font-size:18px; position:absolute; color:#ad873c; width:100%; text-align:center; margin-top:10%;-ms-transform:translateY(-50%); -webkit-transform:translateY(-50%); transform:translateY(-50%); }
 .category-description { margin-bottom:10px; padding: 25px 0 0 0; }
 .category-description p{font-size:12px;font-weight:400;}
 .category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
@@ -944,7 +998,16 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
   .pattern-header .header img{max-width:5%;left:0;right:0;position:relative;}
   .pattern-header .img-size{max-width:50%;height:auto;margin-top:35px;}
  .pattern-header  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:16px; font-weight:400; line-height:1.2;}
- .pattern-header  h3{font-family:inherit;font-size:8px; font-weight:600; line-height:1.2;display:block;float:left;}
+ .pattern-header  h3{font-family:inherit;font-size:7px; font-weight:400; line-height:1.2;display:block;float:left;}
+ 
+ .pattern-header-kanchi{background-image:url(../images/head-pattern-kanchi.png);
+  background-attachment:scroll; background-repeat:repeat; background-size:cover;width:100%;height:auto;background-position:center center}
+    .pattern-header-kanchi .header{text-align:left;display:block;float:left;width:50%;}
+   .pattern-header-kanchi .header1{text-align:center;display:block;float:left;width:50%;}  
+  .pattern-header-kanchi  h2{ color:#ad873c; margin:0 0 10px; font-family: 'Playfair Display', serif; font-size:18px; font-weight:400; line-height:1.2;}
+  .pattern-header-kanchi  h3{ color:#ad873c; font-family: 'Playfair Display', serif; font-size:8px; font-weight:400; line-height:1.2;display:block;float:left;margin-top:2%;width:50%;text-align:right;}
+  .pattern-header-kanchi .img-size{max-width:25%;height:auto;}
+ 
  
  /*======================================================================
   imgBanners
@@ -969,8 +1032,7 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .collection-hero { position:relative; overflow:hidden;padding:100px 0 0 0; }
 .collection-hero__image {width:100%; height:auto; margin:0;}
 .collection-hero__image img {max-width:100%; height:auto;}
-.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
-.collection-hero__title{text-transform:uppercase;font-weight:600; font-size:16px; position:absolute; color:#fff; width:100%; text-align:center; margin-top:15%;letter-spacing:-1px;line-height:18px;}
+.collection-hero__title { font-size:18px; position:absolute; color:#ad873c; width:100%; text-align:center; margin-top:10%;}
 .category-description { margin-bottom:10px; padding: 25px 0 0 0; }
 .category-description p{font-size:12px;font-weight:400;}
 .category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
@@ -1081,8 +1143,7 @@ siteNav > li > a { color:#e10b24; padding:0 15px; text-transform:uppercase; line
 .collection-hero { position:relative; overflow:hidden;padding:70px 0 0 0; }
 .collection-hero__image {width:100%; height:auto; margin:0;}
 .collection-hero__image img { width:100%; }
-.collection-hero__title-wrapper::before { content: ''; position:absolute; top:0; right:0; bottom:0;left:0; }
-.collection-hero__title { font-size:66px; position:absolute; color:#ad873c; width:100%; text-align:center; margin-top:10%;-ms-transform:translateY(-50%); -webkit-transform:translateY(-50%); transform:translateY(-50%); }
+.collection-hero__title { font-size:14px; position:absolute; color:#ad873c; width:100%; text-align:center; margin-top:10%; }
 .category-description { margin-bottom:10px; padding: 25px 0 0 0; }
 .category-description p{font-size:12px;font-weight:400;}
 .category-description h3{font-size:16px;font-weight:400; letter-spacing:.5px;}
